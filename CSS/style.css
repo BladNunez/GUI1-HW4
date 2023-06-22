@@ -1,0 +1,46 @@
+body{
+        background-size: 100%;
+        background-repeat:no-repeat;
+    } 
+    /* set style of input form */
+    .form {
+        margin: auto 0 auto 20px;
+    }
+    
+    /* set margin of input block to leave some space for error message */
+    .form input {
+        margin: auto 10px auto 0;
+    }
+    
+    /* set style of table*/
+    table, th, td {
+        font-size: 16px;
+        font-weight: normal;
+        border: 1px solid black;
+        margin: auto;
+        background-color: white;
+    }
+    
+    /* set each header cell and standard cell to 80px width
+       set box padding to 5px
+       set text alignment to left */
+    th, td {
+        width: 80px;
+        padding: 5px;
+    }
+    /* set the font color and background color for first row and colnum */
+    th, td:nth-child(1) {
+        color: red;
+        background-color: black;
+    }
+    /*set the button style*/
+    button{
+        background-color: rgb(64, 60, 60);
+        border-radius: 10px;
+        border-color:black;
+        color:whitesmoke;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px 32px;
+        text-align: center;
+    }
